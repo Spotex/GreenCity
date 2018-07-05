@@ -1,0 +1,182 @@
+.fifth-section {
+  padding: 0 0 5% 0; }
+  .fifth-section .text-about h2 {
+    text-align: center;
+    color: #3a3a3c; }
+  .fifth-section .btn-special {
+    margin: 3.5% auto 0;
+    border-color: #e89e0c;
+    display: block;
+    width: 22%; }
+  .fifth-section .btn-special:hover {
+    background: #e89e0c;
+    color: #fff; }
+
+.b-comments {
+  display: inline-block;
+  width: 45%; }
+  .b-comments h3, .b-comments h4 {
+    font-size: 22px;
+    color: #3a3a3c;
+    font-family: 'RobotoBold';
+    margin: 2% 0 0 0; }
+  .b-comments h4 {
+    font-size: 16px;
+    margin: 0; }
+  .b-comments .comment {
+    font-family: 'RobotoRegular';
+    position: relative;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #edf1f4;
+    box-shadow: inset 0px 0px 0px 2px #edf1f4;
+    margin: 5% 0 0 0;
+    padding: 5% 2% 7% 5%;
+    font-size: 14px;
+    min-height: 80px; }
+    .b-comments .comment div {
+      font-size: 12px;
+      position: absolute;
+      top: 2.3em;
+      right: 2em; }
+    .b-comments .comment div::before {
+      content: ' ';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: -20px;
+      background: url(../img/calendar.png) no-repeat center center;
+      background-size: cover; }
+    .b-comments .comment p {
+      margin: 3% 0 0 0; }
+  .b-comments .rate {
+    font-family: 'RobotoRegular';
+    margin: 3% 0 0 0;
+    font-size: 14px;
+    line-height: 22px; }
+    .b-comments .rate a {
+      margin: 0 0 0 3%;
+      cursor: pointer; }
+      .b-comments .rate a img {
+        vertical-align: top;
+        display: inline-block;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; }
+    .b-comments .rate a:hover img {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+
+.b-comments:nth-child(3) {
+  float: right; }
+
+.b-write-comment {
+  -webkit-box-shadow: inset 0px 0px 0px 2px #edf1f4;
+  box-shadow: inset 0px 0px 0px 2px #edf1f4;
+  padding: 2% 2% 3%;
+  margin: 5% 0 0;
+  position: relative;
+  color: #3a3a3c; }
+  .b-write-comment label {
+    font-family: 'RobotoBold';
+    font-size: 0.8em;
+    margin: 0;
+    position: absolute;
+    margin: -2em 0 0; }
+  .b-write-comment label:nth-of-type(2) {
+    margin: -2em 0 0 3%; }
+  .b-write-comment label:nth-of-type(3) {
+    display: block;
+    margin: 2em 0 0 0; }
+  .b-write-comment textarea {
+    display: block; }
+  .b-write-comment select {
+    width: 25%;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    border: 0.5px solid #e9e9e9;
+    font-family: 'RobotoMedium';
+    padding: 0 0 0 1em;
+    margin: 0 0 0 3%;
+    border-radius: 25px;
+    color: #6e6e6e; }
+  .b-write-comment input[type=text] {
+    width: 25%;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    border: 0.5px solid #e9e9e9;
+    font-family: 'RobotoMedium';
+    padding: 0 0 0 1em;
+    border-radius: 25px;
+    color: #6e6e6e; }
+  .b-write-comment textarea {
+    outline: none;
+    width: 99.5%;
+    background: #fff;
+    border: 0.5px solid #e9e9e9;
+    font-family: 'RobotoMedium';
+    padding: 0.5em;
+    margin: 5% 0 0;
+    border-radius: 5px;
+    color: #3a3a3c; }
+  .b-write-comment h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 2.5em; }
+  .b-write-comment .btn-special {
+    margin: 3% 0 0;
+    width: 15%;
+    font-size: 14px;
+    display: inline-block; }
+  .b-write-comment .promoted-checkbox label {
+    color: #6e6e6e;
+    margin: -1.3em 0 0 3%; }
+  .b-write-comment .promoted-checkbox svg {
+    left: -2px;
+    top: 4px; }
+
+.fifth-section .btn-special.feedback-more {
+  display: inline-block;
+  width: 25%;
+  border: 2px solid #649632; }
+
+.fifth-section .btn-special.feedback-more:hover {
+  background: #649632; }
+
+.fifth-section .right {
+  float: right; }
+
+@media screen and (max-width: 415px) {
+  .b-comments {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .b-comments:nth-child(3) {
+    margin-top: 10%;
+    float: none; }
+  .fifth-section .btn-special {
+    width: 45%; }
+  .b-write-comment {
+    width: 86%;
+    margin: 10% 5% 0; }
+    .b-write-comment label {
+      display: inline-block; }
+    .b-write-comment .promoted-checkbox {
+      display: none; }
+    .b-write-comment input[type=text],
+    .b-write-comment select {
+      width: 40%; }
+    .b-write-comment textarea {
+      width: 95%;
+      margin: 15% 0 0; }
+    .b-write-comment .btn-special {
+      display: block;
+      margin: 5% auto 0; }
+  .fifth-section .right {
+    float: none; }
+  .fifth-section .btn-special.feedback-more {
+    display: block;
+    margin: 5% auto 0;
+    width: 60%; } }

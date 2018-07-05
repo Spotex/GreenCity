@@ -1,0 +1,52 @@
+$(document).ready(function(){
+            $('.slide-bank-jts').bxSlider({
+                mode: 'horizontal',
+                controls: true,
+                autoHover: true,
+                pagerType: 'short',
+                auto: false,
+                pause: 5000,
+                moveSlides: 1,
+                touchEnabled: false,
+                // easing:'linear',
+                // moveSlides:3,
+                infiniteLoop: true,
+                // slideWidth: 676,
+                minSlides: 1,
+                maxSlides: 3,
+                speed: 800,
+			});
+            $('.about-slider').bxSlider({
+                mode: 'horizontal',
+                controls: true,
+                autoHover: true,
+                pagerType: 'short',
+				pager:true,
+                auto: false,
+                pause: 5000,
+                moveSlides: 1,
+                touchEnabled: false,
+                // easing:'linear',
+                // moveSlides:3,
+                infiniteLoop: true,
+                // slideWidth: 676,
+
+                speed: 800,
+            });
+            $('.block-one-slider .bxslider').bxSlider({
+                mode: 'horizontal',
+                // controls: true,
+                autoHover: true,
+                auto: false,
+                pause: 5000,
+                moveSlides: 1,
+                touchEnabled: false,
+                // easing:'linear',
+                // moveSlides:3,
+                infiniteLoop: true,
+                // slideWidth: 676,
+                minSlides: 1,
+                maxSlides: 3,
+                speed: 800,
+            });
+        });

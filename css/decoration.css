@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.bg-menu-header:before,
+.bg-menu-header:after {
+  content: none; }
+
+.bg-menu-header {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9; }
+  .bg-menu-header .menu-header a {
+    color: #545456; }
+
+.fifth-section h2 {
+  color: #3a3a3c;
+  margin: 5% 0 0 0;
+  text-align: center; }
+
+.fifth-section .b-about {
+  margin: 5% 0 0 0; }
+  .fifth-section .b-about .text-about {
+    vertical-align: middle; }
+  .fifth-section .b-about .slider {
+    vertical-align: middle; }
+
+.fifth-section .b-right .text-about {
+  margin: 0 0 0 4.6%; }
+
+.fifth-section .b-right .slider {
+  margin: 0; }
+
+.fifth-section .b-right .slider:nth-of-type(3) {
+  display: none; }
+
+.fourth-section {
+  margin-top: 5%; }
+  .fourth-section h2 {
+    text-transform: uppercase; }
+  .fourth-section input[type=text] {
+    font-family: 'RobotoRegular';
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    padding: 0.8em 0 0.7em 1em;
+    background: rgba(34, 34, 34, 0.5);
+    border: 1.5px solid #565454;
+    border-radius: 25px;
+    position: relative; }
+  .fourth-section input[type=tel] {
+    position: relative; }
+  .fourth-section .btn-submit:after {
+    content: 'Как вас зовут?';
+    position: absolute;
+    font-size: 14px;
+    font-family: 'RobotoRegular';
+    color: red; }
+  .fourth-section input {
+    width: 30%;
+    margin-left: 2% !important; }
+
+.b-about .bx-wrapper {
+  background: transparent;
+  margin: 0; }
+  .b-about .bx-wrapper img {
+    width: 100%;
+    height: 100%; }
+
+.b-about .bx-wrapper .bx-prev {
+  width: 36px;
+  height: 30px;
+  z-index: 15;
+  left: 40%;
+  top: 90%;
+  background: url("../img/arr-l2.png") no-repeat center center;
+  background-size: cover; }
+
+.b-about .bx-wrapper .bx-next {
+  width: 36px;
+  height: 30px;
+  z-index: 15;
+  right: 40%;
+  top: 90%;
+  background: url("../img/arr-r2.png") no-repeat center center;
+  background-size: cover; }
+
+.b-about .bx-wrapper .bx-next:hover, .b-about .bx-wrapper .bx-next:focus {
+  background-position: 0 0; }
+
+.b-about .bx-wrapper .bx-pager {
+  color: #fff;
+  bottom: 8%;
+  font-size: 20px; }
+
+.about-slider {
+  position: relative; }
+
+.b-about .bx-viewport:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+36,0+36,0.65+98 */
+  background: -moz-linear-gradient(top, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-linear-gradient(top, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(36%, transparent), color-stop(98%, rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65)));
+  background: -o-linear-gradient(top, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%);
+  background: linear-gradient(to bottom, transparent 0%, transparent 36%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); }
+
+@media screen and (max-width: 415px) {
+  .fifth-section .b-about .text-about {
+    margin: 0 0 0 4.6%; }
+  .fifth-section .b-about .text-about h3 {
+    font-size: 20px;
+    text-align: center; }
+  .fifth-section .b-about.b-right .slider {
+    display: none; }
+  .fifth-section .b-about.b-right .slider:nth-of-type(3) {
+    display: block; }
+  .fifth-section .b-about:nth-of-type(2) {
+    margin-top: 3em; }
+  .b-about .bx-wrapper .bx-prev {
+    left: 30%; }
+  .b-about .bx-wrapper .bx-next {
+    right: 30%; }
+  .b-about .bx-wrapper .bx-pager {
+    bottom: 6%; } }

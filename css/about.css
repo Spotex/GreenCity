@@ -1,0 +1,52 @@
+.thirteenth-section {
+  background: #fff; }
+
+.payment-methods-section {
+  background: #edf1f4; }
+  .payment-methods-section .b-complex:nth-of-type(3) {
+    padding-bottom: 0; }
+
+.documentation-section {
+  background: #edf1f4;
+  text-align: center;
+  padding: 0 0 5% 0; }
+  .documentation-section h2 {
+    margin: 5% 0 0 0;
+    color: #3a3a3c; }
+  .documentation-section .btn-special {
+    margin: 5% 0 0 0;
+    border-color: #e89e0c; }
+  .documentation-section .btn-special:hover {
+    background: #e89e0c;
+    color: #fff; }
+  .documentation-section .b-choose {
+    width: 20%;
+    display: inline-block;
+    margin: 2.5% 0 0 5%;
+    padding: 0; }
+    .documentation-section .b-choose .i-choose {
+      display: block;
+      margin: 2em 0; }
+      .documentation-section .b-choose .i-choose div {
+        vertical-align: middle;
+        background: url("../img/document-default.png") center center no-repeat;
+        background-color: #fff; }
+      .documentation-section .b-choose .i-choose span {
+        text-decoration: underline; }
+    .documentation-section .b-choose .i-choose:hover div {
+      background-color: #e89e0c;
+      background-image: url("../img/document-hover.png");
+      border-color: #fff; }
+      .documentation-section .b-choose .i-choose:hover div svg {
+        fill: red; }
+  .documentation-section .b-choose:nth-of-type(1) {
+    margin-left: 0; }
+
+@media screen and (max-width: 415px) {
+  .b-choose:nth-of-type(3),
+  .b-choose:nth-of-type(4) {
+    display: none; }
+  .documentation-section .b-choose {
+    width: 45%; }
+    .documentation-section .b-choose .i-choose {
+      width: 100%; } }

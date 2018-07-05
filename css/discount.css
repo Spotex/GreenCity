@@ -1,0 +1,15 @@
+hr {
+  color: #e9e9e9;
+  border-width: 0.5px;
+  margin-top: 5%; }
+
+.tenth-section {
+  padding: 0 0 4% 0; }
+  .tenth-section h2 {
+    margin: 5% 0; }
+  .tenth-section .btn-special {
+    margin: 5% auto 0; }
+
+@media screen and (max-width: 415px) {
+  hr {
+    width: 90%; } }
